@@ -62,11 +62,7 @@ html {
     }
 }
 
-
-//----------------------------------------------------------- 
-
 #header {
-    width: 100%;
     height: 117px;
     background-color: #b13941;
     display: flex;
@@ -104,7 +100,6 @@ html {
 }
 
 #body {
-    width: 100%;
     height: auto;
 
     .body-home {
@@ -227,7 +222,6 @@ html {
     }
 
     .body-about {
-        height: 777px;
         background-color: #f8eed3;
 
         .content-body-about {
@@ -659,139 +653,136 @@ html {
             }
         }
     }
-}
-
-.body-blog {
-    height: 735px;
-    background-color: #b13941;
-
-    .sub-body-blog {
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        margin-left: -38px;
-        padding-top: 88px;
-
-        .body-blog-left {
-            video {
-                width: 723px;
-                height: 504px;
-                margin-left: 57px;
-                margin-bottom: 49px;
+    .body-blog {
+        height: 735px;
+        background-color: #b13941;
+    
+        .sub-body-blog {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            margin-left: -38px;
+            padding-top: 88px;
+    
+            .body-blog-left {
+                video {
+                    width: 723px;
+                    height: 504px;
+                    margin-left: 57px;
+                    margin-bottom: 49px;
+                }
+            }
+    
+            .body-blog-right {
+                margin-top: 191px;
+                width: 35.5%;
+                display: flex;
+                flex-direction: column;
+    
+                h2 {
+                    font-size: 58px;
+                    letter-spacing: 1px;
+                    color: #f8eed3;
+                    font-weight: 400;
+                    font-family: "Yeseva One";
+                    margin-top: -61px;
+                }
+    
+                p {
+                    font-size: 22px;
+                    line-height: 33px;
+                    color: #f8eed3;
+                    font-weight: 400;
+                    font-family: "PT Serif";
+                    margin-top: 26px;
+                    text-align-last: left;
+                }
+    
+                .icon-blog {
+                    display: flex;
+                    width: 47%;
+                    justify-content: space-around;
+                    margin-left: -19px;
+                    margin-top: 43px;
+                }
             }
         }
-
-        .body-blog-right {
-            margin-top: 191px;
-            width: 35.5%;
-            display: flex;
-            flex-direction: column;
-
+    }
+    .body-contact {
+        height: 767px;
+        background-color: #ffffff;
+        display: flex;
+    
+        .body-contact-left {
+            width: 46.5%;
+    
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .body-contact-right {
+            width: 53.5%;
+            padding: 64px;
+            padding-top: 60px;
+            margin-left: 14px;
+    
             h2 {
                 font-size: 58px;
                 letter-spacing: 1px;
-                color: #f8eed3;
-                font-weight: 400;
+                color: #b13941;
+                font-weight: 500;
                 font-family: "Yeseva One";
-                margin-top: -61px;
+                text-align: left;
+                margin-bottom: 36px;
+                margin-left: -9px;
             }
-
-            p {
-                font-size: 22px;
+    
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-left: -3px;
+            }
+    
+            input {
+                line-height: 62px;
+                height: auto;
+                background-color: #efefef;
+                border: 1.5px solid #b0b0b0;
+                margin: 17px 0;
+                padding-left: 30px;
+                font-size: 20px;
+            }
+    
+            .input-message {
+                height: 202px;
+                background-color: #efefef;
+                border: 1.5px solid #b0b0b0;
+                padding-bottom: 136px;
+            }
+    
+            button {
+                width: 206px;
+                background-color: #b13941;
+                font-size: 25px;
                 line-height: 33px;
                 color: #f8eed3;
-                font-weight: 400;
+                font-weight: 700;
                 font-family: "PT Serif";
-                margin-top: 26px;
-                text-align-last: left;
-            }
-
-            .icon-blog {
-                display: flex;
-                width: 47%;
-                justify-content: space-around;
-                margin-left: -19px;
-                margin-top: 43px;
+                text-align: center;
+                margin-top: 47px;
+                height: 53px;
+                outline: 0;
+                border: none;
+                margin-left: -5px;
+                cursor: pointer;
             }
         }
     }
 }
-.body-contact {
-    height: 767px;
-    background-color: #ffffff;
-    display: flex;
-
-    .body-contact-left {
-        width: 46.5%;
-
-        iframe {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    .body-contact-right {
-        width: 53.5%;
-        padding: 64px;
-        padding-top: 60px;
-        margin-left: 14px;
-
-        h2 {
-            font-size: 58px;
-            letter-spacing: 1px;
-            color: #b13941;
-            font-weight: 500;
-            font-family: "Yeseva One";
-            text-align: left;
-            margin-bottom: 36px;
-            margin-left: -9px;
-        }
-
-        div {
-            display: flex;
-            flex-direction: column;
-            margin-left: -3px;
-        }
-
-        input {
-            line-height: 62px;
-            height: auto;
-            background-color: #efefef;
-            border: 1.5px solid #b0b0b0;
-            margin: 17px 0;
-            padding-left: 30px;
-            font-size: 20px;
-        }
-
-        .input-message {
-            height: 202px;
-            background-color: #efefef;
-            border: 1.5px solid #b0b0b0;
-            padding-bottom: 136px;
-        }
-
-        button {
-            width: 206px;
-            background-color: #b13941;
-            font-size: 25px;
-            line-height: 33px;
-            color: #f8eed3;
-            font-weight: 700;
-            font-family: "PT Serif";
-            text-align: center;
-            margin-top: 47px;
-            height: 53px;
-            outline: 0;
-            border: none;
-            margin-left: -5px;
-            cursor: pointer;
-        }
-    }
-}
-
 
 #footer {
-    width: 100%;
     height: 323px;
     background-color: #b13941;
 
