@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.clipartmax.com/png/full/252-2524757_free-vector-graphic-cup-of-coffee-icon.png"
+        type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Yeseva+One&display=swap"
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Yeseva+One&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
@@ -24,24 +26,7 @@
 
 <body>
     <div id="container">
-        <div class="overplay"></div>
-        <div id="mobile">
-            <div class="menu-mobile">
-                <div class="menu-mobile-header">
-                    <img src="./image/icon-close.png" alt="" class="icon-close">
-                </div>
-                <div class="menu-mobile-body">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
         <div id="header">
             <ul>
                 <li><a href="">Home</a></li>
@@ -52,31 +37,47 @@
                 <li><a href="">Shop</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            <a href=""></a>
             <div class="header-menu">
                 <div>
                     <img src="./image/icon_header.png" alt="">
                 </div>
                 <img src="./image/Menu.png" alt="" class="icon-menu">
             </div>
+            <div id="mobile">
+                <div class="menu-mobile">
+                    <div class="menu-mobile-header">
+                        <img src="./image/icon-close.png" alt="" class="icon-close">
+                    </div>
+                    <div class="menu-mobile-body">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+
         <div id="body">
-            <div class="body-home">
-                <img src="./image/image_body1.jpg" alt="">
-                <div class="body-home-content">
+            <div class="banner">
+                <div class="banner-content">
                     <h1>Morning Coffe Routine</h1>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                         mollit anim id est laborum.</p>
-                    <input type="button" value="Get Started">
+                    <button>Get Started</button>
                 </div>
             </div>
             <div class="clear"></div>
 
             <div class="body-voucher">
-                <div class="content-body-voucher">
+                <div class="content-voucher">
                     <img src="./image/image_body2.png" alt="">
-                    <div class="content-body-voucher-right">
+                    <div class="content-voucher-right">
                         <h3>Gift Voucher</h3>
                         <h2>1 Free Cup of Coffee</h2>
                         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -89,9 +90,9 @@
             </div>
 
             <div class="body-about">
-                <div class="content-body-about">
+                <div class="content-about">
                     <img src="./image/image_body3.png" alt="">
-                    <div class="content-body-about-right">
+                    <div class="content-about-right">
                         <h2>Best Coffee Brand in NYC</h2>
                         <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum
                             fusce ut placerat orci nulla pellentesque dignissim enim sit. Volutpat lacus laoreet non
@@ -104,14 +105,14 @@
             </div>
 
             <div class="body-menu">
-                <div class="content-body-menu">
-                    <div class="content-body-menu-title">
+                <div class="content-menu">
+                    <div class="content-menu-title">
                         <h2>Menu</h2>
                         <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum
                             fusce ut placerat orci nulla pellentesque dignissim enim sit.</p>
                     </div>
-                    <div class="content-body-submenu slider slide-show">
-                        <div class="content-body-submenu-left img-wish">
+                    <div class="content-submenu slider slide-show">
+                        <div class="content-submenu-left img-wish">
                             <img src="./image/image-body4-1.png" alt="" loading="lazy">
                             <div>
                                 <h3>Americano</h3>
@@ -121,7 +122,7 @@
                                 <input type="button" value="Order Now">
                             </div>
                         </div>
-                        <div class="content-body-submenu-right img-wish">
+                        <div class="content-submenu-right img-wish">
                             <img src="./image/image-body4-2.png" alt="" loading="lazy">
                             <div>
                                 <h3>Americano</h3>
@@ -131,7 +132,7 @@
                                 <input type="button" value="Order Now">
                             </div>
                         </div>
-                        <div class="content-body-submenu-left img-wish">
+                        <div class="content-submenu-left img-wish">
                             <img src="./image/image-body4-1.png" alt="" loading="lazy">
                             <div>
                                 <h3>Americano</h3>
@@ -141,48 +142,33 @@
                                 <input type="button" value="Order Now">
                             </div>
                         </div>
-                        <div class="content-body-submenu-right img-wish">
-                            <img src="./image/image-body4-2.png" alt="" loading="lazy">
-                            <div>
-                                <h3>Americano</h3>
-                                <p>Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
-                                    feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
-                                </p>
-                                <input type="button" value="Order Now">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slick">
-                        <input type="radio" name="check" id="slick-pre">
-                        <input type="radio" name="check" id="slick-next">
                     </div>
                 </div>
             </div>
-            </div<>
             <div class="body-shop">
-                <div class="body-shop-title">
+                <div class="shop-title">
                     <h2>Store</h2>
                     <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum
                         fusce ut
                         placerat orci nulla pellentesque dignissim enim sit.</p>
                 </div>
-                <div class="body-shop-content">
-                    <div class="body-shop-content-corpertum">
+                <div class="shop-content">
+                    <div class="content-corpertum">
                         <img src="./image/body-store-1.png" alt="">
                         <p>A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida
                             neque
                             convallis.</p>
                         <input type="button" value="Visit Now">
-                        <div class="midle-shop-content-corpertum">
+                        <div class="midle-content-corpertum">
                             <div>
                                 <h3>Corpertum</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="body-shop-content-vesttibulun">
+                    <div class="content-vesttibulun">
                         <div>
                             <img src="./image/body-store-2.png" alt="">
-                            <div class="midle-shop-content-vesttibulun">
+                            <div class="midle-content-vesttibulun">
                                 <div>
                                     <h3>Vesttibulun</h3>
                                 </div>
@@ -194,13 +180,13 @@
                         <input type="button" value="Visit Now">
 
                     </div>
-                    <div class="body-shop-content-convallis">
+                    <div class="content-convallis">
                         <img src="./image/body-store-3.png" alt="">
                         <p>A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida
                             neque
                             convallis.</p>
                         <input type="button" value="Visit Now">
-                        <div class="midle-shop-content-convallis">
+                        <div class="midle-content-convallis">
                             <div>
                                 <h3>Convallis</h3>
                             </div>
@@ -209,13 +195,13 @@
                 </div>
             </div>
             <div class="body-blog">
-                <div class="sub-body-blog">
-                    <div class="body-blog-left">
+                <div class="sub-blog">
+                    <div class="blog-left">
                         <video controls>
-                            <source src="../app/video/movie.mp4" type="video/mp4">
+                            <source src="./video/movie.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="body-blog-right">
+                    <div class="blog-right">
                         <h2>Company Profile</h2>
                         <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum
                             fusce ut
@@ -229,34 +215,36 @@
                 </div>
             </div>
             <div class="body-contact">
-                <div class="body-contact-left">
+                <div class="contact-left">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15336.534974810518!2d108.1547262!3d16.05854805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1676943957564!5m2!1svi!2s"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="body-contact-right">
+                <div class="contact-right">
                     <h2>Contact Us</h2>
                     <div>
                         <input type="text" placeholder="Your Name">
-                        <input type="text" placeholder="Gender">
+                        <input type="text" placeholder="Gender" class="input-gender">
                         <input type="text" placeholder="Messages" class="input-message">
                     </div>
                     <button type="submit">Send Message</button>
                 </div>
             </div>
+        </div>
 
-            <div id="footer">
-                <div class="sub-footer">
-                    <div class="footer-logo">
-                        <img src="./image/footer-1.png" alt="">
-                    </div>
-                    <div class="footer-your-company">
-                        <h3>Your Company</h3>
-                        <p>Halimun Street 25Jakarta, Indonesia 12850</p>
-                        <a href="">www.yourdomain.com</a>
-                    </div>
-                    <div class="footer-site-map">
+        <div id="footer">
+            <div class="sub-footer">
+                <div class="footer-logo">
+                    <img src="./image/footer-1.png" alt="">
+                </div>
+                <div class="your-company">
+                    <h3>Your Company</h3>
+                    <p>Halimun Street 25Jakarta, Indonesia 12850</p>
+                    <a href="">www.yourdomain.com</a>
+                </div>
+                <div class="footer-midle">
+                    <div class="site-map">
                         <h3>Sitemap</h3>
                         <ul>
                             <li><a href="">Home</a></li>
@@ -267,7 +255,7 @@
                             <li><a href="">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="footer-Lorem-ipsum">
+                    <div class="Lorem-ipsum">
                         <h3>Lorem Ipsum</h3>
                         <ul>
                             <li><a href="">Neque</a></li>
@@ -278,7 +266,7 @@
                             <li><a href="">Enim lobortis</a></li>
                         </ul>
                     </div>
-                    <div class="footer-sit-amet">
+                    <div class="sit-amet">
                         <h3>Sit Amet</h3>
                         <ul>
                             <li><a href="">Neque</a></li>
@@ -289,20 +277,21 @@
                             <li><a href="">Enim lobortis</a></li>
                         </ul>
                     </div>
-                    <div class="footer-content-final">
-                        <img src="./image/footer-2.png" alt="">
-                        <p>Copyright © 2020 Freepik Company S.L. All rights reserved.</p>
-                        <div>
-                            <a href=""><img src="./image/icon-fb.png" alt="" class="icon-footer-final"></a>
-                            <a href=""><img src="./image/icon_instagram.png" alt="" class="icon-footer-final"></a>
-                            <a href=""><img src="./image/icon_tiwer.png" alt="" class="icon-footer-final"></a>
+                </div>
+                <div class="content-final">
+                    <img src="./image/footer-2.png" alt="">
+                    <p>Copyright © 2020 Freepik Company S.L. All rights reserved.</p>
+                    <div>
+                        <a href=""><img src="./image/icon-fb.png" alt="" class="icon-footer-final"></a>
+                        <a href=""><img src="./image/icon_instagram.png" alt="" class="icon-footer-final"></a>
+                        <a href=""><img src="./image/icon_tiwer.png" alt="" class="icon-footer-final"></a>
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="./js/main.js"></script>
+    </div>
+    <script src="./js/main.js"></script>
 
 
 </body>
